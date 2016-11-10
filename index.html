@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta characset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title>API(s)</title>
+    <link rel='stylesheet' href='styles/semantic.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+
+</head>
+<body id="app">
+<audio autoplay loop preload>
+  <source src="http://moviethemes.net/music/LOTR/Lord_Of_The_Rings__Main_Title_Theme.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+
+    <div class="ui grid">
+        <div class="one wide colum">
+            <div class="card ui">
+                <div class="content">
+                    <div class="description js-desc desc-large-font">
+                        Elliot Fu is a film-maker from New York.
+                    </div>
+                    <div class="header js-header header-small-font">Elliot Fu</div>
+                    <div class="meta js-meta">Friend</div>
+                </div>
+            </div>
+                    <a class="ui green button js-refresh fluid" href="#">
+                        <i class="right floated refresh icon green"></i> Load Another
+                    </a>
+        </div>
+    </div>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script id="data">
+        var __data = [{
+            quote: "Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.",
+            charac: "Legolas Greenleaf of the Woodland Realm",
+            bookMovie: "The Two Towers"
+        },{
+            quote: "But in the end, it's only a passing thing, this shadow. Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer.",
+            charac: "Samwise Gamgee",
+            bookMovie: "The Two Towers"
+         },
+{
+    quote: "Gandalf's death was not in vain. Nor would he have you give up hope” ",
+    charac: "Boromir, Son of Denethor"
+},
+{
+    quote: "You are a daughter of kings, a shield maiden of Rohan. That will not be your fate.",
+    charac: "Aragorn, Son of Arathorn to Eowyn, daughter of Éomund & Theodwyn",
+    bookMovie: "The Two Towers"
+}, 
+{
+    quote: "The Quest stands upon the edge of a knife. Stray but a little, and it will fail, to the ruin of all. Yet hope remains while the Company is true.",
+    charac: "Galadriel, the Lady of Lothlórien",
+    bookMovie: "The Fellowship of the Ring"
+},
+{
+    quote: "Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.",
+    charac: "Legolas Greenleaf of the Woodland Realm",
+    bookMovie: "The Two Towers" 
+},
+{
+    quote: "Then it has all been in vain. The fellowship has failed/n Not if we hold true to each other. We will not abandon Merry and Pippin to torment and death. Not while we have strength left.", 
+    charac: "Aragorn, Son of Arathorn",
+    bookMovie: "The Fellowship of the Ring",
+},
+{
+    quote: "There is  some good in the  world Mr. Frodo and it’s worth fighting for.",
+    charac: "Samwise Gamgee", 
+    bookMovie: "The Two Towers"
+},
+{
+    quote: "What can men do against such reckless hate?/nRide out with me. Ride out and meet them.", 
+    charac: "Aragorn, Son of Arathorn & Theoden, Son of Thengel",
+    bookMovie: "The Two Towers"
+},
+{
+    quote: "Sons of Gondor! Of Rohan! I see in your eyes the same fear that would take the heart of me. A day may come when the courage of Men fails, when we forsake our friends and break all bonds of fellowship, but it is not this day. An hour of wolves and shattered shields when the Age of Men comes crashing down, but it is not THIS day!", 
+    charac: "Aragorn, Son of Arathorn",
+    bookMovie: "The Return of the King"
+},
+{
+    quote: "'I wish it need not have happened in my time,' said Frodo.\n'So do I,' said Gandalf, 'and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us.'",
+    bookMovie: "The Fellowship of the Ring"
+}]
+    </script>
+    <script src='javascript/main.js'></script>
+</body>
+</html>

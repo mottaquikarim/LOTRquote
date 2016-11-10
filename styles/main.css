@@ -1,0 +1,41 @@
+/* CURRENTLY IN: styles/main.css */
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-image: url(http://wallpapercave.com/wp/0pNldyU.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+#app .card {
+    min-width: 400px;
+}
+
+#app .desc-large-font {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#app .description {
+    margin-bottom: 16px;
+}
+
+#app .header-small-font {
+    font-size: 12px;
+    line-height: 16px;
+}
